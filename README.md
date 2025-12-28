@@ -1,5 +1,5 @@
 # How does this tool work?
-It simply automates the installation of snap and flathub and also enables it so that it can be seen in the relevant stores of the various desktop environments.
+It simply automates the installation of Snap and Flathub and enables them so they are visible in the relevant stores of the various desktop environments. In the case of Flatpak, it automatically configures everything according to the official guide on the website, avoiding the need to copy and paste individual commands into the terminal. After the script is executed, both Snap and Flathub are also accessible directly through the software store of your Linux distribution.
 
 # Quick perks
 If you have not installed gnome software or kde discover, you can choose to install it using either `--gnome-software` or `--kde-discover`. You can also skip the automatic update of system packages by typing `--skip-update`.
